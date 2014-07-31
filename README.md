@@ -37,6 +37,6 @@ Main.make10 (7, 7, 2, 5)
 //=> [|"-+*"; "/**"|]
 ```
 
-## License
+## Copyright and License
 
-This software is distributed under the [MIT License](http://opensource.org/licenses/mit-license.php).
+This software is distributed under the [MIT License](http://opensource.org/licenses/mit-license.php). See also [here](https://github.com/Gab-km/Make10/blob/master/LICENSE.txt).
