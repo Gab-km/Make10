@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Make10", "Make10\Make10.fsproj", "{396911B9-31C4-4B4A-AC85-62E6B2D5364A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Make10Test", "Make10Test\Make10Test.fsproj", "{8272CF9F-4DF3-491E-9CD2-3EA56ADEE1F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396911B9-31C4-4B4A-AC85-62E6B2D5364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396911B9-31C4-4B4A-AC85-62E6B2D5364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396911B9-31C4-4B4A-AC85-62E6B2D5364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396911B9-31C4-4B4A-AC85-62E6B2D5364A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8272CF9F-4DF3-491E-9CD2-3EA56ADEE1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8272CF9F-4DF3-491E-9CD2-3EA56ADEE1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8272CF9F-4DF3-491E-9CD2-3EA56ADEE1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8272CF9F-4DF3-491E-9CD2-3EA56ADEE1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
