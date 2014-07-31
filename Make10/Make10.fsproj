@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Make10.fsi" />
     <Compile Include="Make10.fs" />
-    <None Include="Script.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
