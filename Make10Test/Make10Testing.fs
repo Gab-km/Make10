@@ -19,6 +19,6 @@ module Make10Testing =
             |> Arb.fromGen
         let make10with1pattern (x: int, y: int, z: int, w: int) =
             let result = Make10.Main.make10 (x, y, z, w)
-            result.Length = 0 || (Array.forall (fun (s: string) -> s.Contains("+")) result)
+            result.Length = 0 || (Array.exists (fun (s: string) -> s.Contains("+")) result)
         let property = Prop.forAll filteredInput make10with1pattern
-        Check.Quick property
+        Check.QuickThrowOnFailure property
