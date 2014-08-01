@@ -14,7 +14,7 @@ module Main =
     | NotInteger of float * string
     | Integer of float * string
 
-    let make10Async (x: float) (y: float) (z: float) (w: float) =
+    let categorize (x: float) (y: float) (z: float) (w: float) =
         let computeAsync (f: unit -> float * string) =
             async {
                 let computed, symbols = f()
@@ -97,7 +97,7 @@ module Main =
     let make10 (tpl : int * int * int * int) =
         let xi, yi, zi, wi = tpl
         let x, y, z, w = (float xi, float yi, float zi, float wi)
-        make10Async x y z w
+        categorize x y z w
         |> Array.map
             (function
                 | Integer(c, s) when c = 10.0                    -> Success(int c, s)
